@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/^(dist|tmp)$/);
+        return !name.match(/^(node_modules|tmp)$/);
     };
 });
